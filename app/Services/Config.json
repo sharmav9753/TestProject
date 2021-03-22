@@ -1,0 +1,6 @@
+// TODO Remove and update with configuration
+{
+  "SSO_BASE_URL": "https://sso.example.com",
+  "BASE_URL": "https://example.com",
+  "DEV": false 
+}
