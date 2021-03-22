@@ -5,19 +5,20 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import * as Colors from '../../Constants/Colors';
+import * as Fonts from '../../Constants/Fonts';
 
 const styles = StyleSheet.create({
   mainContainer: {
     flex: 1,
-    backgroundColor: Colors.grey,
+    backgroundColor: Colors.baseBackground,
     alignItems: 'center',
     justifyContent: 'center',
   },
   message: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
+    fontSize: Fonts.largest,
+    fontWeight: Fonts.bold,
+    color: Colors.textBlack,
     alignSelf: 'center',
   },
 });
